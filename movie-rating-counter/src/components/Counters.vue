@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts"> // Came by default but I saw the theory behind this in docs: 'Usage in Single-File Components'
 import { ref, computed } from "vue";
 
 defineProps<{ msg: string }>();

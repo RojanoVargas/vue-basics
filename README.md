@@ -4,6 +4,7 @@ Aiming to document my first steps in **Vue** with **TypeScript** and the learnin
 
 ## Resources:
 
+- [Fireship Vue in 100s](https://www.youtube.com/watch?v=nhBVL41-_Cw)
 - [Vue docs](https://vuejs.org/guide/introduction.html)
 - [Vue + TypeScript from vue docs](https://vuejs.org/guide/typescript/overview)
 
@@ -21,10 +22,16 @@ Aiming to document my first steps in **Vue** with **TypeScript** and the learnin
 
 - Phase 2. Diving deeper into theory
     - Vue
+        - [Docs - Components Basics (basic props)](https://vuejs.org/guide/essentials/component-basics.html)
+    - [TypeScript theory](ts-theory.md)
+
+    - Source: [docs]()
 
 - Phase 3. Future learning:
     - [Routing](https://router.vuejs.org/)
+    - [Docs - More about props](https://vuejs.org/guide/components/props)
     - State management with [Pinia](https://pinia.vuejs.org/)
+    - [Oruga component library](https://oruga-ui.com/)
 
 ## Theory
 

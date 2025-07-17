@@ -1,6 +1,6 @@
-# vue-basics
+# Vue Basics
 
-Aiming to document my first steps in **Vue** with **TypeScript** and the learning process. Also to have access to a project starter that can work as a template for future projects. **Vite** as build tool.
+Documenting my first steps in **Vue** with **TypeScript** and the learning process. Also to have access to a project starter that can work as a template for future projects. **Vite** as the build tool.
 
 ## Resources:
 
@@ -16,16 +16,15 @@ Aiming to document my first steps in **Vue** with **TypeScript** and the learnin
         - [`ref()`](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#basic-reactivity-in-templates) 
         - [`@click`](https://vuejs.org/guide/essentials/event-handling.html#event-listeners)
         - [`v-if` or `v-show` for conditional rendering](https://vuejs.org/guide/essentials/conditional.html)
-        >Generally speaking, v-if has higher toggle costs while v-show has higher initial render costs. So prefer v-show if you need to toggle something very often, and prefer v-if if the condition is unlikely to change at runtime.
+        > Generally speaking, v-if has higher toggle costs while v-show has higher initial render costs. So prefer v-show if you need to toggle something very often, and prefer v-if if the condition is unlikely to change at runtime.
         - Template syntax `{{ score }}`
         > The mustache tag will be replaced with the value of the msg property from the corresponding component instance. It will also be updated whenever the msg property changes.
 
 - Phase 2. Diving deeper into theory
     - Vue
         - [Docs - Components Basics (basic props)](https://vuejs.org/guide/essentials/component-basics.html)
+    
     - [TypeScript theory](ts-theory.md)
-
-    - Source: [docs]()
 
 - Phase 3. Future learning:
     - [Routing](https://router.vuejs.org/)
@@ -47,7 +46,7 @@ npm install
 npm run dev
 ```
 
-- First peak at file organization
+- First peek at file organization
 - Removing unnecessary stuff from the template
 - First learnings:
     1. TypeScript triggered in two ways:
@@ -72,14 +71,14 @@ npm run dev
     6. Final learnings:
         - Without `computed()` the if statement didn't work
         - `v-if` allowed to show (or hide) span. Conditional rendering
-        - `scoped` allows for style to only affect elements of the current component
+        - `scoped` ensures styles only apply to elements within the current component
 
 ### Vue syntax
 
 - Vue template. Similarities with JSX, but:
 
   - Mustache interpolation: `{{ msg }}` and `{{ count }}` - this binds JavaScript variables to the template
-  - Event handlers: @click="count++" - this is Vue's shorthand for v-on:click
+  - Event handlers: `@click="count++"` - this is Vue's shorthand for v-on:click
   - Reactive bindings: The variables automatically update the DOM when they change
 
 ## ChatGPT relevant prompts
@@ -105,3 +104,7 @@ npm run dev
 - From the final suggestion (a counter game), tweak it into topic
 
 > Good, what about we make it cinema-y? Something with movie ratings and instead of lose win, it's a good movie or a bad movie?
+
+- After completing the game, trying to establish next steps
+
+> Okay, the little game works. Should I go for a second little app or more into typescript and vue theoretically? Am I missing very important things from core vue still? What about state and what about routing? 

@@ -42,4 +42,8 @@ button {
 button:hover {
 	border: solid 1px black;
 }
+
+.card {
+	padding: 0 0 2em 0;
+}
 </style>

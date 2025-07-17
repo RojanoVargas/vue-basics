@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from "./components/Counters.vue";
+import Counters from "./components/Counters.vue";
 
 const popup = (): void => { // void is common for event handlers with TypeScript
 	alert("You are hired");
@@ -12,7 +12,7 @@ const popup = (): void => { // void is common for event handlers with TypeScript
 			<img src="./assets/justwatchlogo.png" class="logo" alt="JustWatch logo" />
 		</a>
 	</div>
-	<HelloWorld msg="Movie Rating Counter" />
+	<Counters msg="Movie Rating Counter" />
 </template>
 
 <style scoped>

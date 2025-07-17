@@ -1,6 +1,14 @@
 # Vue Basics
 
+<p>
+  <img src="https://vuejs.org/images/logo.png" alt="Vue Logo" width="40" style="margin-right: 10px;">
+  <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="TypeScript Logo" width="40" style="margin-right: 10px;">
+  <img src="https://vitejs.dev/logo-with-shadow.png" alt="Vite Logo" width="40">
+</p>
+
 Documenting my first steps in **Vue** with **TypeScript** and the learning process. Also to have access to a project starter that can work as a template for future projects. **Vite** as the build tool.
+
+
 
 ## Resources:
 

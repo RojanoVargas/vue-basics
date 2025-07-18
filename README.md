@@ -21,9 +21,9 @@ Documenting my first steps in **Vue** with **TypeScript** and the learning proce
 - Phase 1. Basic: [Movie Rating Counter](./movie-rating-counter/)
     - A counter that counts good and bad scenes during a movie and triggers a message depending on the current score.
     - Learning goals:
-        - [`ref()`](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#basic-reactivity-in-templates) 
-        - [`@click`](https://vuejs.org/guide/essentials/event-handling.html#event-listeners)
-        - [`v-if` or `v-show` for conditional rendering](https://vuejs.org/guide/essentials/conditional.html)
+        - [`ref()`](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#basic-reactivity-in-templates) - reactivity
+        - [`@click`](https://vuejs.org/guide/essentials/event-handling.html#event-listeners) - event handlers
+        - [`v-if` or `v-show`](https://vuejs.org/guide/essentials/conditional.html) - for conditional rendering
         > Generally speaking, v-if has higher toggle costs while v-show has higher initial render costs. So prefer v-show if you need to toggle something very often, and prefer v-if if the condition is unlikely to change at runtime.
         - Template syntax `{{ score }}`
         > The mustache tag will be replaced with the value of the msg property from the corresponding component instance. It will also be updated whenever the msg property changes.
